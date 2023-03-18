@@ -1,0 +1,1122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+
+/***************************** Top-Container ***************************************/
+.top-container{
+    max-width: 100%;
+    background-image: url("../Images/bg-img.png");
+    padding: 80px;
+    background-color:#058ACC;
+    background-blend-mode:multiply;
+    box-sizing: border-box;
+}
+.top-container .nav-bar{
+    display: flex; 
+    margin-bottom: 152px;
+
+}
+.top-container .nav-bar .nav-bar-logo{
+    display: none;
+}
+.top-container .nav-bar .nav-bar-logo{
+    display: none;
+}
+.top-container .nav-bar .logo{
+    margin-right: 128px;
+}
+
+.top-container .nav-bar .nav-links a{
+    color: #fff;
+    margin-right: 54px;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.top-container .nav-bar .nav-links .last-a{
+    margin-right: 0;
+}
+
+
+.top-container .business-model{
+    margin-bottom: 256px;
+}
+.top-container .business-model h1{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 74px;
+    color: #fff;
+}
+
+.top-container .btn-start{
+    text-align: center;
+}
+.top-container .btn-start button{
+    background-color: #CEA93A;
+    border: none;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    padding: 16px 72px;
+    cursor: pointer;
+}
+
+/******************************************* First-Container **********************************************/
+
+.first-container{
+    max-width: 100%;
+    padding: 80px;
+    box-sizing: border-box;
+}
+.first-container .about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-container .about .about-txt h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+.first-container .about .about-txt p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+.first-container .about .about-txt{
+    margin-right: 141px;
+}
+
+/******************************* Second-Container ***********************************/
+.second-container{
+    max-width: 100%;
+    padding: 0px 80px 80px 80px;
+    box-sizing: border-box;
+}
+.second-container .offer-txt{
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.second-container .offer-txt h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.second-container .offer-txt h6{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.second-container .offer-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+.second-container .offer-cards .card{
+    max-width: 270px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.second-container .offer-cards .card .orange{
+    background-color: #EB7B37;
+    height: 18px;
+}
+.second-container .offer-cards .card .yellow{
+    background-color:#FAD606 ;
+    height: 18px;
+}
+.second-container .offer-cards .card .brown{
+    background-color:#C6A136;
+    height: 18px;
+}
+.second-container .offer-cards .card .lightblue{
+    background-color: #A2B8C1;
+    height: 18px;
+}
+
+.second-container .offer-cards .card-content{
+    text-align: center;
+    height: 300px;
+    background-color: rgba(162, 184, 193, 0.05);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 16px 24px 40px 24px;
+}
+
+.second-container .view-all-services{
+    text-align: center;
+}
+
+.second-container .view-all-services button{
+    background-color: #0D89CA;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    color: #FFFFFF;
+    padding: 16px 40px;
+    cursor: pointer;
+}
+
+
+/****************************************** Third-Container ***********************************************/
+
+.third-container{
+    max-width: 100%;
+    padding: 0px 80px 80px 80px;
+    box-sizing: border-box;
+}
+.third-container .partner-txt{
+    text-align: center;
+    margin-bottom: 64px;
+}
+.third-container .partner-txt h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.third-container .partner-txt p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.third-container .partner-img{
+    max-width: 100%;
+}
+.third-container .partner-img img{
+    width: 100%;
+}
+
+/***************************************** Fourth-Container ***************************************/
+
+.fourth-container{
+    max-width: 100%;
+    padding: 0px 80px 80px 80px;
+    box-sizing: border-box;
+}
+.fourth-container .testimonials-txt{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.fourth-container .testimonials-txt h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 80px;
+}
+.fourth-container .testimonials-txt p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;    
+}
+
+.fourth-container .testimonials-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+
+.fourth-container .testimonials-cards .card{
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 10px rgba(162, 184, 193, 0.5);
+    position: relative; 
+    margin-right: 32px;   
+    margin-bottom: 32px;
+}
+
+.fourth-container .testimonials-cards .card .card-rating{
+    padding: 32px 56px;
+}
+
+.fourth-container .testimonials-cards .card .card-rating .rating-star{
+    margin-bottom: 16px;
+}
+
+.fourth-container .testimonials-cards .card .card-rating .rating-star .comma{
+    margin-right: 32px;
+}
+
+.fourth-container .testimonials-cards .card .card-rating .rating-txt p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+.fourth-container .testimonials-cards .card .rating-person .card-img{
+    /* position: absolute;
+    left:150px;
+    top:280px */
+    text-align: center;
+    margin-top: -126px;
+}
+
+.fourth-container .testimonials-cards .card .rating-person{
+    background-color: #A2B8C1;
+    padding: 72px 40px 56px 40px;
+}
+.fourth-container .testimonials-cards .card .rating-person h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+
+.fourth-container .testimonial-btn{
+    text-align: center;
+}
+
+.fourth-container .testimonial-btn button{
+    border:none;
+    background-color: #0D89CA;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color:#fff;
+    padding: 16px 40px;
+    cursor: pointer;    
+}
+
+/********************************** Fifth-Container **********************************************/
+
+.fifth-container{
+    max-width: 100%;
+    padding: 0px 80px 80px 80px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+.fifth-container .blog{
+    text-align: center;
+    margin-bottom: 72px;
+}
+.fifth-container .blog h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;    
+}
+
+.fifth-container .blog-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 64px;
+}
+
+.fifth-container .blog-cards .card{
+    max-width: 540px;
+    width: 100%;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+
+.fifth-container .blog-cards .card .card-img img{
+    width: 100%;
+}
+
+.fifth-container .blog-cards .card .card-txt{
+    padding: 16px 56px 48px 56px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.fifth-container .blog-cards .card .card-txt .card-txt-1{
+    margin-bottom: 24px;   
+}
+
+.fifth-container .blog-cards .card .card-txt .card-txt-1 span{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #A88427;    
+}
+.fifth-container .blog-cards .card .card-txt .card-txt-1 .span-1{
+    margin-right: 224px;   
+}
+.fifth-container .blog-cards .card .card-txt .card-txt-2{
+    margin-bottom: 48px;     
+}
+
+
+.fifth-container .blog-cards .card .card-txt .card-txt-2 p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;     
+}
+
+.fifth-container .blog-cards .card .card-txt .card-txt-3{
+    text-align: center;    
+}
+.fifth-container .blog-cards .card .card-txt .card-txt-3 a{
+    text-decoration: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #081A2B;    
+}
+.fifth-container .blog-cards .card .card-txt .card-txt-3 h6{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;    
+}
+.fifth-container .blog-cards .card .orange{
+    background-color: #EB7B37;
+    height: 10px;
+}
+.fifth-container .blog-btn {
+    text-align: center;
+}
+.fifth-container .blog-btn button{
+    border: none;
+    border: 1px solid #0D89CA;
+    padding: 16px 64px;
+    background-color: #FFFFFF;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;    
+}
+
+/******************************* Sixth-Container ***************************************/
+
+.sixth-container{
+    max-width: 100%;
+    padding: 0px 80px 24px 80px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+.sixth-container .contact-us{
+    text-align: center;
+}
+
+.sixth-container .contact-us h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;  
+    margin-bottom: 24px;  
+}
+.sixth-container .contact-us p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;   
+    margin-bottom: 48px; 
+}
+
+.sixth-container .contact-form-and-location .contact-us-card{
+    max-width: 448px;
+    height: 669px;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    padding: 54px 54px;
+    margin-bottom: 80px;
+}
+
+.sixth-container .contact-form-and-location .contact-us-card .contact{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.sixth-container .contact-form-and-location .contact-us-card .contact h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;    
+}
+
+.sixth-container .contact-form-and-location .contact-us-card .input-field input{
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 16px 16px;
+    background-color: #E8E8E8;
+    border: none;
+    border: 1px solid #E8E8E8;
+}
+#message-input{
+    height: 210px;
+}
+.sixth-container .contact-form-and-location .contact-us-card .contact-btn button{
+    background-color: #0D89CA;
+    border: none;
+    color: #fff;
+    padding: 16px 48px;
+}
+.sixth-container .contact-form-and-location{
+    display:flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sixth-container .contact-form-and-location .contact-location {
+    padding: 24px 0;
+}
+.sixth-container .contact-form-and-location .contact-location .con{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.sixth-container .contact-form-and-location .contact-location .con .con-1{
+    max-width:276px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 32px;
+}
+.sixth-container .contact-form-and-location .contact-location .con .con-1 .con-1-img{
+    margin-bottom: 16px;
+}
+
+.sixth-container .contact-form-and-location .contact-location .location{
+    text-align: center;
+    margin-bottom: 72px;
+}
+.sixth-container .contact-form-and-location .contact-location .logo img{
+    margin-right: 32px;
+}
+
+/******************************* Footer-container ****************************/
+
+footer{
+    background-color: #001C27BF;
+    width: 100%;
+    text-align: center;
+    padding: 16px 16px;
+}
+footer .footer-1{
+margin-right: 48px;    
+}
+footer .footer-1 p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    display: inline;    
+}
+
+footer .footer-2 p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color:#fff;
+    display: inline;    
+}
+
+
+
+
+
+@media screen and (max-width: 1170px) {
+
+    /******************** top-container ******************************/
+    .top-container{
+        max-width: 1170px;
+        background-image: url("../Images/bg-img.png");
+        padding: 16px;
+        background-color:#058ACC;
+        background-blend-mode:multiply;
+        box-sizing: border-box;
+        height: 600px;
+    }
+    .top-container .nav-bar{
+        display: flex; 
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+    .top-container .nav-bar .nav-bar-logo{
+        display: contents;
+    }
+    .custom-nav{
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .top-container .nav-bar .logo{
+        margin-right: 0px;
+        margin-bottom: 72px;
+    }
+    .top-container .nav-bar .nav-links{
+        display: none;
+    }
+    
+    .top-container .business-model{
+        margin-bottom: 80px;
+    }
+    .top-container .business-model h1{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        color: #fff;
+    }
+    
+    .top-container .btn-start{
+        text-align: left;
+    }
+    .top-container .btn-start button{
+        background-color: #CEA93A;
+        border: none;
+        color: #fff;
+        font-family: 'Jost', sans-serif;
+        padding: 12px 36px;
+        cursor: pointer;
+    }
+
+
+
+    /****************** 1st-container **********************/
+    .first-container .about{
+        display: block;
+    }
+
+    .first-container .about .about-img img{
+        width: 100%;
+    }
+
+
+    .first-container{
+        max-width: 1440px;
+        padding: 36px 16px 16px 16px;
+        margin-bottom: 180px;
+        box-sizing: border-box;
+    }
+
+    
+    .first-container .about .about-txt h3{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .first-container .about .about-txt p{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        margin-bottom: 32px;
+    }
+    .first-container .about .about-txt{
+        margin-right: 0px;
+    }
+
+    /***************************** 2nd-container *********************************/
+    .second-container{
+        max-width: 1170px;
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    .second-container .offer-txt{
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    
+    .second-container .offer-txt h3{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    .second-container .offer-txt h6{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        margin-bottom: 48px;
+    }
+    .second-container .offer-cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0;
+        justify-content: center;
+    }
+    .second-container .offer-cards .card{
+        max-width: 109px;
+        box-sizing: border-box;
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .second-container .offer-cards .card-1-and-card-3{
+        margin-right: 12px;
+    }
+    .second-container .offer-cards .card .orange{
+        background-color: #EB7B37;
+        width: 50%;
+        margin-bottom: 4px;
+        height: 8px;
+    }
+    .second-container .offer-cards .card .yellow{
+        background-color:#FAD606 ;
+        width: 50%;
+        margin-bottom: 4px;
+        height: 8px;
+    }
+    .second-container .offer-cards .card .brown{
+        background-color:#C6A136;
+        width: 50%;
+        margin-bottom: 4px;
+        height: 8px;
+    }
+    .second-container .offer-cards .card .lightblue{
+        background-color: #A2B8C1;
+        width: 50%;
+        margin-bottom: 4px;
+        height: 8px;
+    }
+    
+    .second-container .offer-cards .card-content{
+        text-align: center;
+        height: 109px;
+        background-color: rgba(162, 184, 193, 0.05);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        padding: 0px;
+    }
+    .second-container .offer-cards .card-content .card-logo img{
+        width: 40px;
+        height: 32px;
+    }
+    .second-container .offer-cards .card-content .card-title h3 {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px; 
+    }
+    .second-container .offer-cards .card-content .card-detail p {
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 8px;   
+    }
+    .second-container .view-all-services{
+        text-align: center;
+    }
+    
+    .second-container .view-all-services button{
+        background-color: #0D89CA;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        border: none;
+        color: #FFFFFF;
+        padding: 12px 40px;
+        cursor: pointer;
+    }
+
+
+        /****************************************** Third-Container ***********************************************/
+
+    .third-container{
+        max-width: 100%;
+        padding: 56px  16px 54px 16px;
+        margin-bottom: 112px;
+        box-sizing: border-box;
+    }
+    .third-container .partner-txt{
+        text-align: center;
+        margin-bottom: 48px;
+    }
+    .third-container .partner-txt h3{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+    .third-container .partner-txt p{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+    }
+    .third-container .partner-img{
+        display: none;
+    }
+    .third-container .partner-img-mbl .partner-img-mbl-1{
+        margin-bottom: 40px;
+    }
+
+    .third-container .partner-img-mbl img{
+        width: 100%;
+    }
+
+
+
+    /*********************** Fourth-container *********************************/
+    .fourth-container{
+        max-width: 1440px;
+        padding: 0px 16px;
+        box-sizing: border-box;
+    }
+    .fourth-container .testimonials-txt{
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .fourth-container .testimonials-txt h3{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    .fourth-container .testimonials-txt p{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;   
+    }
+    
+    .fourth-container .testimonials-cards{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 32px;
+    }
+    
+    .fourth-container .testimonials-cards .card{
+        max-width: 400px;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.9);
+        box-shadow: 0px 0px 10px rgba(162, 184, 193, 0.5);
+        position: relative; 
+        margin: 0 auto;
+        margin-bottom: 8px;
+    }
+    .fourth-container .testimonials-cards .card-1{
+        display: none;
+    }
+    .fourth-container .testimonials-cards .card-3{
+        display: none;
+    }
+    
+    .fourth-container .testimonials-cards .card .card-rating{
+        padding: 16px 16px 64px 16px;
+    }
+    
+    .fourth-container .testimonials-cards .card .card-rating .rating-star{
+        margin-bottom: 16px;
+    }
+    
+    .fourth-container .testimonials-cards .card .card-rating .rating-star .comma{
+        margin-right: 18px;
+    }
+    
+    .fourth-container .testimonials-cards .card .card-rating .rating-txt p{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+    }
+    .fourth-container .testimonials-cards .card .card-rating .card-img{
+        text-align: center;
+        margin-top: -126px;
+    }
+    
+    .fourth-container .testimonials-cards .card .rating-person{
+        background-color: #A2B8C1;
+        padding: 64px 24px 24px 24px;
+    }
+    .fourth-container .testimonials-cards .card .rating-person h3{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    .fourth-container .testimonial-btn{
+        text-align: center;
+    }
+    
+    .fourth-container .testimonial-btn button{
+        border:none;
+        background-color: #0D89CA;
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        color:#fff;
+        padding: 16px 40px;
+        cursor: pointer;    
+    }
+
+    /********************************** Fifth-Container **********************************************/
+
+.fifth-container{
+    max-width: 100%;
+    padding: 48px 16px 16px 16px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+}
+.fifth-container .blog{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.fifth-container .blog h3{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;  
+}
+
+.fifth-container .blog-cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 54px;
+}
+
+.fifth-container .blog-cards .card{
+    max-width: 540px;
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+.fifth-container .blog-cards .card-2{
+    display: none;
+}
+
+.fifth-container .blog-cards .card .card-img img{
+    width: 100%;
+}
+
+.fifth-container .blog-cards .card .card-txt{
+    padding: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.fifth-container .blog-cards .card .card-txt .card-txt-1{
+    margin-bottom: 24px;   
+}
+
+.fifth-container .blog-cards .card .card-txt .card-txt-1 span{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #A88427;    
+}
+.fifth-container .blog-cards .card .card-txt .card-txt-1 .span-1{
+    margin-right: 8px;   
+}
+.fifth-container .blog-cards .card .card-txt .card-txt-2{
+    margin-bottom: 48px;     
+}
+
+
+.fifth-container .blog-cards .card .card-txt .card-txt-2 p{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;    
+}
+
+.fifth-container .blog-cards .card .card-txt .card-txt-3{
+    margin: 0 auto;  
+    border-bottom: 1px solid #0D89CA;
+    padding-bottom: 8px;  
+    max-width: fit-content;
+}
+.fifth-container .blog-cards .card .card-txt .card-txt-3 a{
+    text-decoration: none;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #081A2B;    
+}
+.fifth-container .blog-cards .card .card-txt .card-txt-3 h6{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;    
+}
+.fifth-container .blog-cards .card .orange{
+    background-color: #EB7B37;
+    display: none;
+    height: 10px;
+}
+.fifth-container .blog-btn {
+    text-align: center;
+}
+.fifth-container .blog-btn button{
+    border: none;
+    border: 1px solid #0D89CA;
+    padding: 16px 64px;
+    background-color: #FFFFFF;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;    
+}
+
+
+    
+    
+    
+    /******************** sixth-container ******************************/
+    .sixth-container{
+        max-width: 1170px;   
+        box-sizing: border-box;
+        padding: 56px 16px 16px 16px;
+        margin-bottom: 0px;
+    }
+    .sixth-container .contact-us{
+        text-align: center;
+    }
+    
+    .sixth-container .contact-us h3{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 12px;  
+    }
+    .sixth-container .contact-us p{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px; 
+        margin-bottom: 42px; 
+    }
+    
+    .sixth-container .contact-form-and-location .contact-us-card{
+        max-width: 448px;
+        height: 610px;
+        border: 1px solid #DDDDDD;
+        border-radius: 20px;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        padding: 32px 32px 24px 32px;
+        margin: 0 auto;
+    }
+    
+    .sixth-container .contact-form-and-location .contact-us-card .contact{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    
+    .sixth-container .contact-form-and-location .contact-us-card .contact h3{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;    
+    }
+    
+    .sixth-container .contact-form-and-location .contact-us-card .input-field input{
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 16px 16px;
+        background-color: #E8E8E8;
+        border: none;
+        border: 1px solid #E8E8E8;
+    }
+    #message-input{
+        height: 210px;
+    }
+    .sixth-container .contact-form-and-location .contact-us-card .contact-btn button{
+        background-color: #0D89CA;
+        border: none;
+        color: #fff;
+        padding: 16px 48px;
+    }
+
+    .sixth-container .contact-form-and-location .contact-location {
+        padding: 24px 0;
+    }
+    .sixth-container .contact-form-and-location .contact-location .con{
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 64px;
+    }
+    
+    .sixth-container .contact-form-and-location .contact-location .con .con-1{
+        max-width:276px;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        margin: 16px auto 0 auto;
+    }
+    .sixth-container .contact-form-and-location .contact-location .con .con-1 .con-1-img{
+        margin-bottom: 16px;
+    }
+
+    
+    .sixth-container .contact-form-and-location .contact-location .location{
+        text-align: center;
+        margin-bottom: 72px;
+    }
+    .sixth-container .contact-form-and-location .contact-location .location img{
+       display: none;
+    }
+    .sixth-container .contact-form-and-location .contact-location .logo{
+        text-align: center;
+    }
+    .sixth-container .contact-form-and-location .contact-location .logo img{
+        margin-right: 32px;
+    }
+
+    /******************** Footer *********************/
+    footer{
+        background-color: #001C27BF;
+        width: 100%;
+        text-align: center;
+        padding: 16px 16px;
+    }
+    footer .footer-1{
+    margin-right: 48px;    
+    }
+    footer .footer-1 p{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        color: #fff;
+        display: inline;    
+    }
+    
+    footer .footer-2 p{
+        font-family: 'Jost';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        color:#fff;
+        display: inline;    
+    }
+    
+    
+
+}
